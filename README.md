@@ -1,17 +1,34 @@
 Android TextSwitcher Sample
 ===================================
 
-This sample illustrates the use of a TextSwitcher to display text.
+This sample illustrates the use of a TextSwitcher to display animations for text changes.
 
-Click the button below to set new text in the TextSwitcher and observe the
+Introduction
+------------
+
+This sample shows the use of the [android.widget.TextSwitcher][1] View with animations. A
+TextSwitcher is a special type of [android.widget.ViewSwitcher][2] that animates
+the current text out and new text in when
+[android.widget.TextSwitcher#setText(CharSequence)][3] is called.
+
+Click the "Next" button to set new text in the TextSwitcher and observe the
 in and out fade animations.
+
+[1]: http://developer.android.com/reference/android/widget/TextSwitcher.html
+[2]: http://developer.android.com/reference/android/widget/ViewSwitcher.html
+[3]: http://developer.android.com/reference/android/widget/TextSwitcher.html#setText(java.lang.CharSequence)
 
 Pre-requisites
 --------------
 
 - Android SDK v21
-- Android Build Tools v21.1.1
+- Android Build Tools v21.1.2
 - Android Support Repository
+
+Screenshots
+-------------
+
+<img src="screenshots/main.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
