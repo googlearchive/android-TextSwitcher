@@ -1,3 +1,4 @@
+
 Android TextSwitcher Sample
 ===================================
 
